@@ -1,0 +1,136 @@
+.container{
+    background: #111827;
+    position: relative;
+    width: 1400px;
+    height: 1000px;
+    left: 200px;
+}
+
+.letras{
+    color: #FFFFFF;
+    width: 328px;
+    height: 75px;
+    left: 160px;
+    top: 80px;
+    font-weight: 400;
+    font-size: 75px;
+    position: absolute;
+}
+
+.elipse{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    left: 364px;
+    top: 57px;
+}
+
+.caixa1{
+    position: absolute;
+    height: 476px;
+    left: 90px;
+    top: 274px;
+}
+
+.nome{
+    background: #F9F9FB;
+    width: 480px;
+    height: 476px;
+    left: 800px;
+    top: 274px;
+    position: absolute;
+    border-radius: 3px;
+}
+
+.palavra{
+    text-align: center;
+}
+
+.container .nome .formula{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 25px;
+    top: 80px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+}
+
+.container .nome .formula2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 12px;
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 25px;
+    top: 170px;
+    background: rgba(113, 128, 185, 0.32);
+    border-radius: 4px;
+}
+
+.container .nome .botao{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    position: absolute;
+    width: 400px;
+    height: 48px;
+    left: 35px;
+    top: 280px;
+    background: #7180B9;
+    border-radius: 4px;
+}
+
+.container .nome .linha{
+    position: absolute;
+    width: 124px;
+    height: 3px;
+    left: 176px;
+    top: 350px;
+    border-radius: 5px;
+    background:rgba(0, 0, 0, 0.32);
+}
+
+.container .nome .texto{
+    color: #000000;
+    position: absolute;
+    width: 119px;
+    height: 23px;
+    left: 50px;
+    top: 380px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+.container .nome .btn{
+    background: #7180B9;
+    position: absolute;
+    display: flex;
+    font-weight: bold;
+    font-family: 'Inter';
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 16px;
+    gap: 16px;
+    width: 244px;
+    height: 48px;
+    left: 200px;
+    top: 382px;
+    border-radius: 5px;
+}
+
